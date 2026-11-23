@@ -1,34 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Central de Utilidades</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Central de Utilidades</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
     <h1>Central de Utilidades</h1>
-    <p>Ferramentas úteis para o seu dia a dia, feitas com JavaScript.</p>
-  </header>
+    <p>4 ferramentas para ajudar no seu dia a dia: calcular desconto, dividir em parcelas, simular investimento e dividir despesas.</p>
+    <p>Projeto Integrador - 1ª Etapa - Clemilda Borges</p>
+ <div>
+<h2>1 - Calculadora de Descontos</h2>
+<button onclick="calcularDesconto()">Calcular</button>
 
-  <main>
-    <h2>Ferramentas da Etapa 1</h2>
-    <p>Quando a página abrir, vai aparecer um menu. Escolha uma opção:</p>
-    <ul>
-      <li>1 - Calculadora de descontos</li>
-      <li>2 - Calculadora de parcelas</li>
-      <li>3 - Simulador de investimentos</li>
-      <li>4 - Divisor de despesas</li>
-      <li>5 - Sair</li>
-    </ul>
-    <p><strong>Observação:</strong> nesta etapa as ferramentas funcionam com prompt() e alert(). O esboço da interface das quatro ferramentas foi feito em papel, conforme pedido no projeto.</p>
-  </main>
+<h2>2 - Calculadora de Parcelas</h2>
+<button onclick="calcularParcelas()">Calcular</button>
 
-  <footer>
-    <p>© 2026 - Central de Utilidades | Cleiciele - Programação Web I</p>
-  </footer>
+<h2>3 - Simulador de Investimentos</h2>
+<button onclick="simularInvestimento()">Simular</button>
 
-  <script src="script.js"></script>
+<h2>4 - Divisor de Despesas</h2>
+<button onclick="dividirDespesas()">Dividir</button>
+</div>
+
+    <script src="script.js"></script>
 </body>
 </html>
